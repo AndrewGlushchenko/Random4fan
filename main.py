@@ -9,7 +9,7 @@ import random
 DIM = set()
 
 L_PB = {'name': 'Powerball', 'max': 69, 'qnt': 5, 'last': 26}
-L_MM = {'name': 'MegaMillion', 'max': 70, 'qnt': 5, 'last': 25}
+L_MM = {'name': 'MegaMillion', 'max': 70, 'qnt': 5, 'last': 24}
 L_Lot = {'name': 'Lotto', 'max': 50, 'qnt': 6, 'last': 1}
 
 
@@ -53,11 +53,11 @@ def count_val(lot: dict) -> None:
     max_2 = lot.get("last")
     random_add(cnt, max_v)
     point_plus = get_random_val(max_2)
-    sorted(DIM)
+    s = sorted(DIM)
     if max_2 > 1:
-        print(f'Result {name_l}: {DIM} - {point_plus}')
+        print(f'Result {name_l}: {s} - {point_plus}')
     else:
-        print(f'Result {name_l}: {DIM}')
+        print(f'Result {name_l}: {s}')
     DIM.clear()
 
 
