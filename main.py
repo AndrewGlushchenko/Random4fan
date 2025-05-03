@@ -7,9 +7,7 @@
 import random
 
 DIM = set()
-DIM_MAX = 69
-COUNT_N = 5
-DIM_MAX2 = 26
+
 L_PB = {'name': 'Powerball', 'max': 69, 'qnt': 5, 'last': 26}
 L_MM = {'name': 'MegaMillion', 'max': 70, 'qnt': 5, 'last': 25}
 L_Lot = {'name': 'Lotto', 'max': 50, 'qnt': 6, 'last': 1}
